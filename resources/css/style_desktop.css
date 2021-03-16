@@ -33,10 +33,14 @@
 /* success screen */
 
 @media(min-width: 1025px) {
+
+    .icon {
+        margin-top: 5px;
+    }
+
     .icon-inline{
         display: inline-flex;
-        position: relative;
-    }
+       }
 
     .icon-send {
         width: 100px!important;

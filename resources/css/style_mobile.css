@@ -138,14 +138,16 @@ label.seletor {
 
 .icon {
     width: 15px;
-    height: auto;
-    margin-right: 10px;
+    height: 15px;
+    margin-right: 5px;
+    margin-left: 15px;
 }
 
 .icon-inline {
     margin: 0 auto;
     justify-content: center;
     display: -webkit-inline-box;
+    vertical-align: middle;
 }
 
 .urgency {
