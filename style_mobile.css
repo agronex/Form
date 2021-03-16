@@ -149,9 +149,16 @@ label.seletor {
 
 .urgency {
     color: #fff;
-    width: 50%;
+    width: 40%;
     border-radius: 0.4rem;
     margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.urgency:hover {
+    width: 45%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 1s ease-in-out;
 }
 
 .message {
@@ -160,5 +167,7 @@ label.seletor {
     margin-bottom: 5%;
     text-align: justify;
     font-style: italic;
+    font-size: 1.2em;
+    text-indent: 2.2em;
     
 }
