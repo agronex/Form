@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #E3EEF2;
+    color: #7ea0b9;
+    font-family: sans-serif;
+    font-size: 1em;
+    margin: 5% 15% 5% 15%;
+    justify-content: center;
+}
+
+
+.title {
+    font-weight: 600;
+    color: #00749b;
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+}
+
+
+.subtitle {
+    color: #7ea0b9;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 1em;
+    font-size: 25px;
+}
+
+.background {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display:table;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    padding: 5%;
+}
+
+.logo{ 
+    width: 150px;
+    height: auto;
+}
+
+.field {
+    margin-bottom: 1em;
+}
+
+label.seletor {
+    text-align: center;
+}
+
+.field ul {
+    display: block;
+    list-style: none;
+    text-align: center;
+
+}
+
+.field li {
+    display: inline-block;
+    text-align: -webkit-match-parent;
+    margin: 2%;
+}
+
+.field input, .field textarea {
+    border:0px;
+    border-bottom: 1px solid #264653;
+    display:inline-flex;
+    padding: 0.2em;
+    width: 83%;
+}
+
+.box {
+  
+    background:
+      linear-gradient(to right, #264653 2px, transparent 2px) 0 0,
+      linear-gradient(to right, #264653 2px, transparent 2px) 0 100%,
+      linear-gradient(to left, #264653 2px, transparent 2px) 100% 0,
+      linear-gradient(to left, #264653 2px, transparent 2px) 100% 100%,
+      linear-gradient(to bottom, #264653 2px, transparent 2px) 0 0,
+      linear-gradient(to bottom, #264653 2px, transparent 2px) 100% 0,
+      linear-gradient(to top, #264653 2px, transparent 2px) 0 100%,
+      linear-gradient(to top, #264653 2px, transparent 2px) 100% 100%;
+  
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.box:hover {
+    background-size: 60px 60px ;
+    transition: ease-in-out 0.5s;
+}
+
+.button {
+    font-size: 1.2em;
+    background-color: #00749b;
+    margin-bottom: 1em;
+    padding: 0.2em;
+    color: #fff;
+    border-radius: 0.2rem;
+    top: 90%;
+    left: 25%;
+}
+
+.button:hover{
+    background-color: #264653;
+    transition: 0.5s ease-in-out;
+}
+
+/* success screen */
+
+.success-text{
+    text-align: center;
+    color: #7ea0b9;
+}
+
+.success-text-decoration {
+    text-decoration: underline;
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #00749b;
+}
+
+.send {
+    width: 20%;
+    height: auto;
+    margin: 5%;
+}
+
+.icon {
+    width: 6%;
+    height: auto;
+    margin-right: 2%;
+}
+
+.icon-inline {
+
+    margin: 0 auto;
+    justify-content: center;
+}
+

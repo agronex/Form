@@ -1,0 +1,40 @@
+@media(min-width: 1025px) {
+    
+  
+    .title {
+    font-size: 50px;
+    }
+
+    .subtitle {
+    font-size: 40px;
+    }
+
+    .background {
+    width: 80%;
+    padding: 5%;
+    }
+
+    .field input, .field textarea {
+        width: 100%;
+    }  
+    
+    .box {
+        width: 50%;
+        align-items: center;
+        margin:0 auto;
+    }
+
+    .logo {
+        width: 200px;
+        height: auto;
+    }
+}
+
+/* success screen */
+
+@media(min-width: 1025px) {
+    .icon-inline{
+        display: inline-flex;
+        position: relative;
+    }
+}

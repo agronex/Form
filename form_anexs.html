@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="_img/anexs_transparent_icon.png" rel="icon">
+    <link rel="stylesheet" type="text/css" href="style_mobile.css">
+    <link rel="stylesheet" type="text/css" href="style_desktop.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/floating-labels.css">
+    <title>Formulário Anexs</title>
+</head>
+<body>
+    <div>
+         <div class="background">
+                <div>
+                    <img src="_img/anexs_transparent.png" class="logo">
+                    <h1 class="title">Fale conosco!</h1>
+                    <p class="subtitle">Preencha os dados abaixo</p>
+                </div>
+
+            <form method="get" action="success.html">
+                <div class="container">
+                    <div class="col-md">
+
+                        <div class="form-label-group in-border">
+                            <input type="text" name="name" class="form-control shadow-none" placeholder="Seu nome" required/>
+                            <label>Seu nome</label>
+                        </div>
+
+                        <div class="form-label-group in-border">
+                            <input type="text" name="phone" class="form-control shadow-none" placeholder="Seu telefone" required/>
+                            <label>Seu telefone</label>
+                        </div>
+
+                        <div class="form-label-group in-border">
+                            <input type="text" name="email" class="form-control shadow-none" placeholder="Seu e-mail" required/>
+                            <label>Seu e-mail</label>
+                        </div>
+
+                        <div class="form-label-group in-border">
+                            <textarea class="form-control shadow-none" placeholder="Sua mensagem" rows="4"></textarea>
+                            <label>Sua mensagem</label>
+                        </div>
+                    </div>
+                
+
+                    <div class="field box">
+                        <label class="seletor">Urgência do contato</label>
+                        <ul>
+                            <li><input type="radio" name="urgency" value="0" checked>
+                            <label>Baixa</label></li>
+
+                            <li><input type="radio" name="urgency" value="1">
+                            <label>Média</label></li>
+
+                            <li><input type="radio" name="urgency" value="2">
+                            <label>Urgente</label></li>
+                        </ul>
+                    </div>
+                    <button class="button btn btn-outline-secondary btn-lg" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
