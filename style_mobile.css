@@ -6,8 +6,7 @@ body {
     background-color: #E3EEF2;
     color: #7ea0b9;
     font-family: sans-serif;
-    font-size: 1em;
-    margin: 5% 15% 5% 15%;
+    font-size: 1em;/
     justify-content: center;
 }
 
@@ -37,7 +36,7 @@ body {
     display:table;
     text-align: center;
     align-items: center;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     margin-bottom: 10%;
     margin-top: 10%;
@@ -125,7 +124,6 @@ label.seletor {
 }
 
 .success-text-decoration {
-    text-decoration: underline;
     font-size: 3em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #00749b;
@@ -149,3 +147,18 @@ label.seletor {
     justify-content: center;
 }
 
+.urgency {
+    color: #fff;
+    width: 50%;
+    border-radius: 0.4rem;
+    margin: 0 auto;
+}
+
+.message {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    text-align: justify;
+    font-style: italic;
+    
+}

@@ -21,6 +21,5 @@ $(document).ready(function() {
     } else if(urgency=='2') {
         $("#urgency").html("Alta");
         $("#urgency").css('background-color', 'red');
-    }
-    
+    }  
 });
