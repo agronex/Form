@@ -37,4 +37,8 @@
         display: inline-flex;
         position: relative;
     }
+
+    .icon-send {
+        width: 100px!important;
+    }
 }

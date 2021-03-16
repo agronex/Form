@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
 }
-body {
+.body-background {
     background-color: #E3EEF2;
     color: #7ea0b9;
     font-family: sans-serif;
-    font-size: 1em;/
+    font-size: 1em;
     justify-content: center;
 }
+
 
 
 .title {
@@ -129,36 +130,36 @@ label.seletor {
     color: #00749b;
 }
 
-.send {
-    width: 20%;
+.icon-send {
+    width: 50px;
     height: auto;
     margin: 5%;
 }
 
 .icon {
-    width: 6%;
+    width: 15px;
     height: auto;
-    margin-right: 2%;
+    margin-right: 10px;
 }
 
 .icon-inline {
-
     margin: 0 auto;
     justify-content: center;
+    display: -webkit-inline-box;
 }
 
 .urgency {
     color: #fff;
-    width: 40%;
+    width: 80px;
     border-radius: 0.4rem;
     margin: 0 auto;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .urgency:hover {
-    width: 45%;
+    width: 90px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    transition: 1s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 
 .message {
@@ -167,7 +168,7 @@ label.seletor {
     margin-bottom: 5%;
     text-align: justify;
     font-style: italic;
-    font-size: 1.2em;
-    text-indent: 2.2em;
+    font-size: 12px;
+    text-indent: 20px;
     
 }
